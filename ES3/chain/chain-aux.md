@@ -58,13 +58,16 @@ A motivação para a criação do Revision Web Service advém da necessidade de 
 >Chain do Projeto Revision  
 >![Chain do Projeto Revision](chain.png)
 
+\newpage
+
 >Lista de Checkers  
 >![Lista de Checkers](listaCheckers.png)
 
 
-
 >Exemplo de Checker Concreto  
 ![Exemplo de Checker Concreto](checkerConcreto.png)
+
+\newpage
 
 [Link para o projeto no Github](https://github.com/orion-services/revision)
 
