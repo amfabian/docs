@@ -3,10 +3,7 @@ author:
 - Alexandre de Mesquita Fabian
 title:
 - Padrões de Projeto
-fontsize:
-- 12pt
-theme:
-- Copenhagen
+
 ---
 
 # Padrão:
@@ -58,11 +55,16 @@ Reduz a complexidade dos objetos e o acoplamento
 ### Sobre o exemplo
 A motivação para a criação do Revision Web Service advém da necessidade de facilitar a correção e aplicação da nota no Moodle dos exercícios de programação realizados pelos alunos utilizando a plataforma Github. Através de ferramenta específica do Github é possível criar tarefas e automatizar a avaliação das mesmas e utilizando-se do Revision Web Service será possível publicar o resultado desta avaliação na plataforma de ensino Moodle.
 
-![Chain do Projeto Revision](/chain.png)
+>Chain do Projeto Revision  
+>![Chain do Projeto Revision](chain.png)
 
-![Lista de Checkers](/listaCheckers.png)
+>Lista de Checkers  
+>![Lista de Checkers](listaCheckers.png)
 
-![Exemplo de Checker Concreto](/checkerConcreto.png)
+
+
+>Exemplo de Checker Concreto  
+![Exemplo de Checker Concreto](checkerConcreto.png)
 
 [Link para o projeto no Github](https://github.com/orion-services/revision)
 

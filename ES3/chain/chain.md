@@ -1,6 +1,6 @@
 ---
 title:
-- Padrão de Projeto: Chain of Responsability
+- Chain of Responsability
 author:
 - Alexandre Fabian
 theme:
