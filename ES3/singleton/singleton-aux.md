@@ -45,28 +45,28 @@ fontsize:
 # Possivel Resposta:
 - \large Uma variável global torna um objeto acessível, mas não impede você de instanciar múltiplos objetos.   \par  
 
+\newpage
 
 # Resposta:
 - \Large Uma solução melhor seria tornar a própria classe responsável por manter o controle da sua única instância.   \par  
    
-
-# ...
-- \Huge Este é o padrão Singleton   \par  
+ \Huge Este é o padrão Singleton   \par  
    
 # Use o padrão Singleton quando:
 
-- \large for preciso haver apenas uma instância de uma classe, e essa instância tiver que dar acesso aos clientes através de um ponto bem conhecido; \par
-  
-
+- \large for preciso haver apenas uma instância de uma classe, e essa instância tiver que dar acesso aos clientes através de um ponto bem conhecido; \par  
 - \large a única instância tiver de ser extensível através de subclasses, possibilitando aos clientes usar uma instância estendida sem alterar o seu código. \par
 
 # Estrutura
 
 ![Singleton](estrutura.png)
 
+
+\newpage
+
 # Vantagens:
 
-1. \Large Acesso controlado à instância única. \par
+1. \Large Acesso controlado à instância única. \par  
   
 
 2. \Large Espaço de nomes reduzido. \par
@@ -74,7 +74,6 @@ fontsize:
 
 3. \Large Permite um refinamento de operações e da representação. \par
 
-# Vantagens:
 
 4. \Large Permite um número variável de instâncias: \par  
    
@@ -107,7 +106,12 @@ fontsize:
 \newpage
 \newpage
 # App
-Screenshots:
+
+
+
+- [Link para video de demonstracao](https://github.com/amfabian/docs/tree/main/ES3/singleton/demo.mp4).
+
+Screenshots:  
 
 ![Home](home.png)
 
