@@ -1,0 +1,143 @@
+@startuml Diagrama de Classes
+
+
+package "model" {
+
+     
+    Class "Questao" {
+        String area
+        String ano
+        String enunciado 
+        String srcImagem
+        String alternativaCorreta
+        String alternativa1
+        String alternativa2
+        String alternativa3
+    }
+
+
+   
+    Class "Nota"  <<Serializable>> {
+        String area;
+        String periodo;
+        Integer acertos;
+        Integer total;
+    }
+}
+
+package "activities" {
+
+    Class MainActivity {
+        Fragment HomeFragment
+    }
+    Class LoginActivity {
+         String Login
+        String Senha
+        autenticaUsuarioFirebase()
+    }
+    Class CadUsuarioActivity {
+        String Login
+        String Senha
+        cadastraUsuarioFirebase()
+    }
+    Class SplashScreenActivity {
+        ProgressBar progressBar
+        Integer Status
+    }
+    
+}
+
+package "fragments" {
+
+    Class DesempenhoFragment {
+        
+    }
+    Class HomeFragment {
+        NavtoListarFragment()
+        NavtoResponderQuestao()
+        NavtoLogoutFragment()
+        NavtoDesempenhoFragment()
+        
+    }
+    Class ListarFragment {
+        RecyclerList <MyAdapter> list
+        RandomAlternativas()
+        calculaNota()
+    }
+     Class ResponderQuestaoFragment {
+        Questao questao
+        RandomAlternativas()
+        calculaNota()
+
+        
+    }
+    Class LogoutFragment {
+       logoutFirebase()
+    }
+    
+}
+
+package "adapter" {
+
+    Class MyAdapter {
+        + List<Questao> questoes
+        
+    }
+    
+}
+
+
+package "util" {
+
+    Class AdicionaNotasDatabase {
+        + escreveNotasBDRoom()
+        + inicializaNotas()
+        + adiciona(nota)
+        
+    }
+    Class DownloadFB {
+        + obterListQuestoes()
+        + printList()
+    }
+     Class MyAppGlideModule {
+        GlideModule()
+    }
+     Class SingletonRespostasProva << (S,#FF7700) Singleton >>{
+        - constructor()
+        + getInstance()
+        
+    }
+     Class SingletonService << (S,#FF7700) Singleton >>{
+        - constructor()
+        + getInstance()
+        + selecionarArea(area)
+        + obterQuestao()
+        
+    }
+    Class StatsManager {
+        + calculaNota()
+        + addNotaProva()
+    }
+    Class UploadFB {
+        - uploadQuestoesFirebase()
+    }
+    
+}
+package "dao" {
+
+    Class NotasDatabase {
+        + getInstance()
+        + createNotaDAO()
+    }
+    Interface NotasDAO {
+        +List<Nota> getAllNotas()
+        +List<Nota> getNotByArea()
+        +insert(nota)
+        +update(nota)
+        +delete(nota)
+    }
+    
+}
+
+
+@enduml

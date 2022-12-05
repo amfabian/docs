@@ -7,6 +7,10 @@ theme:
 - Copenhagen
 fontsize:
 - 12pt
+
+header-includes: |
+  \pagestyle{empty}  
+ 
 ---
 
 # Padrão:
@@ -92,11 +96,25 @@ fontsize:
 
 # Sobre o exemplo
 
-\Large App para treinar questões do Enceja:  \par
+\Large App para treinar questões do Encceja:  \par
 - \large Banco banco de dados no Firebase para as questões e Storage das imagens. \par
 - \large Banco de dados local para guardar as informações de desempenho \par
 
+# Casos de uso
 
+![Casos de uso](casosUso.png)
+
+\newpage
+# Diagrama de Classes
+
+![Diagrama de Classes](DiagramaClasses0.png)
+
+
+
+![Diagrama de Classes](DiagramaClasses1.png)
+
+\newpage
+# Singleton
 ![Classe Singleton](classSingleton.png)
 
 ![Construtor Privado](privateConstrutor.png)
@@ -106,8 +124,6 @@ fontsize:
 \newpage
 \newpage
 # App
-
-
 
 - [Link para video de demonstracao](https://github.com/amfabian/docs/tree/main/ES3/singleton/demo.mp4).
 
@@ -124,9 +140,11 @@ Screenshots:
 \newpage
 # Sobre
 
-- [Link para a apresentação no Github](https://github.com/amfabian/docs/tree/main/ES3/singleton).
+- [Link para a apresentação no Github](https://github.com/amfabian/docs/tree/main/ES3/singleton):  
+https://github.com/amfabian/docs/tree/main/ES3/singleton
 
-- [Link para o App no Github](https://github.com/amfabian/QuestoesApp).
+- [Link para o App no Github](https://github.com/amfabian/QuestoesApp):  
+https://github.com/amfabian/QuestoesApp  
 
 # Referências
 

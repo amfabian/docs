@@ -93,9 +93,21 @@ fontsize:
 
 # Sobre o exemplo
 
-\Large App para treinar questões do Enceja:  \par
+\Large App para treinar questões do Encceja:  \par
 - \large Banco banco de dados no Firebase para as questões e Storage das imagens. \par
 - \large Banco de dados local para guardar as informações de desempenho \par
+
+# Casos de uso
+
+![Casos de uso](casosUso.png)
+
+# Diagrama de Classes
+
+![model, adapter e dao](DiagramaClasses1.png)
+
+# Diagrama de Classes
+
+![diagrama de classes](DiagramaClasses0.png)  
 
 # Exemplo da utilização do Singleton
 
@@ -121,6 +133,8 @@ fontsize:
 
 # Sobre
 
+- [Link para video de demonstracao](https://github.com/amfabian/docs/tree/main/ES3/singleton/demo.mp4).  
+  
 - [Link para a apresentação no Github](https://github.com/amfabian/docs/tree/main/ES3/singleton).
 
 - [Link para o App no Github](https://github.com/amfabian/QuestoesApp).

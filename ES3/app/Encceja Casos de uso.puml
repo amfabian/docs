@@ -1,0 +1,21 @@
+@startuml diagrama de casos de uso
+left to right direction
+
+
+actor usuario
+actor adm
+
+rectangle "Questoes App"{
+    usuario -- (Escolher área) : " "
+    usuario -- (Questões Aleatórias) : " "
+    usuario -- (Simular Provas) : " " 
+    usuario -- (Verificar Estatísticas) : " " 
+    adm --|> usuario
+    adm -- (Incluir novas questões) : " auth"
+    (Escolher área) <.. (Responder questões) : " <<extend>>"
+    (Questões Aleatórias) <.. ( Verificar resultado) : " <<extend>>"
+    (Responder questões) <.. (Verificar resultado): " <<extend>>"
+    (Incluir novas questões) <.. (Opções para inclusão): " <<extend>>"
+}
+
+@enduml
