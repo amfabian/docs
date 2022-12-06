@@ -24,49 +24,36 @@ fontsize:
 
 \Large Tratamento de dados pessoais deverá observar a **boa-fé**. \par
 
-# Princípios:
-
-- \large Finalidade\par
-- \large Adequação\par
-- \large Necessidade\par
-- \large Livre Acesso\par
-- \large Qualidade dos Dados\par
-
-
-# Princípios:
-
-- \large Transparência\par
-- \large Segurança\par
-- \large Prevenção\par
-- \large Não Discriminação\par
-- \large Responsabilização\par
+- \large Finalidade:  a realização do tratamento deve ocorrer para propósitos legítimos, específicos, explícitos. \par
+- \large Adequação: a compatibilidade do tratamento deve ocorrer conforme as finalidades. \par
+- \large Necessidade: tratamento deve se limitar à realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos. \par
+- \large Livre Acesso: a garantia dada aos(às) titulares de consulta livre, de forma facilitada e gratuita. \par
+- \large Qualidade dos Dados: é a garantia dada aos(às) titulares de exatidão, clareza, relevância e atualização dos dados. \par
+- \large Transparência: é a garantia dada aos(às) titulares de que terão informações claras, precisas e facilmente acessíveis. \par
+- \large Segurança: trata-se da utilização de medidas técnicas e administrativas qualificadas para proteger os dados pessoais. \par
+- \large Prevenção: compreende a adoção de medidas para prevenir a ocorrência de danos. \par
+- \large Não Discriminação: o tratamento dos dados não pode ser realizado para fins discriminatórios, ilícitos ou abusivos. \par
+- \large Responsabilização: demonstração, pelo Controlador ou pelo Operador, de todas as medidas eficazes e capazes de comprovar o cumprimento da lei. \par
 
 # Esta lei não se aplica:
 
 1. \large tratamento de dados pessoais realizados por pessoa natural para fins exclusivamente particulares e não econômicos. \par
 2. \large realizados para fins exclusivamente jornalísticos, artísticos ou acadêmicos.\par 
-
-# Esta lei não se aplica:
 3. \large tratamento de dados pessoais realizados para fins exclusivos de **segurança pública**, **defesa nacional**, **segurança de Estado** ou \par
 4. \large atividades de **investigação** e **repressão de infrações penais**. \par
-
-
-# Esta lei não se aplica:
 - \large ao tratamento de dados pessoais provenientes de **fora do território nacional**, que não tenham uso compartilhado com dados tratados por agentes brasileiros, desde que o país *proporcione grau de proteção de dados adequado* ao previsto na LGPD. \par
 
 
 # Definições:
 
-- \large dado pessoal  \par
-- \large dado pessoal sensível  \par
-- \large dado anonimizado  \par
-- \large titular  \par
-- \large controlador  \par
-  
-# Definições:
-- \large operador  \par
-- \large encarregado  \par
-- \large relatório de impacto à proteção de dados pessoais  \par
+- \large dado pessoal: informação relacionada a pessoa natural.  \par
+- \large dado pessoal sensível: ado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico.   \par
+- \large dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis.   \par
+- \large titular: pessoa natural a quem se referem os dados pessoais.  \par
+- \large controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento.  \par
+- \large operador: essoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador.  \par
+- \large encarregado: pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade.  \par
+- \large relatório de impacto à proteção de dados pessoais: documentação do controlador que contém a descrição dos processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco.  \par
 
 
 # Sobre o tratamento de dados pessoais  
@@ -108,8 +95,6 @@ fontsize:
 
 - \large O Controlador e o Operador devem manter registro das operações de tratamento. \par  
 
-# Agentes de Tratamento  
-
 - \large A autoridade pode determinar ao controlador elaborar relatório de impacto à proteção de dados referante as suas operações, observados os segredos comercias e industrais. \par
 
 # Encarregado pelo Tratamento
@@ -139,10 +124,6 @@ O controlador ou o operador que causar dano a outrem é obrigado a repará-lo.
 - multa diária, observando o mesmo limite.
 - publicização da infração, após apuração e confirmação da ocorrência.
 - bloqueio dos dados a que se refere a infração até regularização.
-
-
-# Sanções Administrativas  
-## Os agentes de tratamento ficam sujeitos as seguintes sanções administrativas:  
 - eliminação dos dados pessoais a que se refere a infração.
 - suspensão parcial do funcionamento do banco de dados por no máximo 06 meses (prorrogável por mais 06 meses).
 - suspensão do exercício da ativadade de tratamento de dados pelo mesmo período.
@@ -162,8 +143,8 @@ O controlador ou o operador que causar dano a outrem é obrigado a repará-lo.
 
 # Referências
 
-- [Link para a lei 13709/2018 (LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm):
+- [Link para a lei 13709/2018 (LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm):  
   https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
   
-- [Guia de Boas Práticas para a LGPD](https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf):
+- [Guia de Boas Práticas para a LGPD](https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf):  
   https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf
